@@ -55,11 +55,12 @@
             </a>
 
             <div class="hidden md:flex space-x-8 font-medium text-sm font-body items-center">
-                <a href="#home" class="text-accent font-bold hover:text-accent/80 transition">Home</a>
-                <a href="#skills" class="hover:text-secondary transition">Expertise</a>
-                <a href="#web-dev" class="hover:text-secondary transition">Projects</a>
-                <a href="#design" class="hover:text-secondary transition">Design</a>
-                <a href="#contact" class="hover:text-secondary transition">Contact</a>
+                <a href="#home" class="nav-link hover:text-secondary transition">Home</a>
+                <a href="#skills" class="nav-link hover:text-secondary transition">Expertise</a>
+                <a href="#web-dev" class="nav-link hover:text-secondary transition">Projects</a>
+                <a href="#design" class="nav-link hover:text-secondary transition">Design</a>
+                <a href="#photography" class="nav-link hover:text-secondary transition">Gallery</a>
+                <a href="#contact" class="nav-link hover:text-secondary transition">Contact</a>
             </div>
 
             <button id="mobile-menu-btn" type="button" class="md:hidden text-2xl text-primary dark:text-white focus:outline-none" aria-label="Toggle mobile menu">
@@ -69,11 +70,12 @@
         
         <div id="mobile-menu" class="hidden md:hidden absolute top-full left-0 w-full bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800 shadow-xl">
             <div class="flex flex-col p-6 space-y-4 font-medium text-center">
-                <a href="#home" class="mobile-link text-accent font-bold">Home</a>
-                <a href="#skills" class="mobile-link hover:text-secondary">Expertise</a>
-                <a href="#web-dev" class="mobile-link hover:text-secondary">Projects</a>
-                <a href="#design" class="mobile-link hover:text-secondary">Design</a>
-                <a href="#contact" class="mobile-link hover:text-secondary">Contact</a>
+                <a href="#home" class="mobile-link nav-link hover:text-secondary">Home</a>
+                <a href="#skills" class="mobile-link nav-link hover:text-secondary">Expertise</a>
+                <a href="#web-dev" class="mobile-link nav-link hover:text-secondary">Projects</a>
+                <a href="#design" class="mobile-link nav-link hover:text-secondary">Design</a>
+                <a href="#photography" class="mobile-link nav-link hover:text-secondary">Gallery</a>
+                <a href="#contact" class="mobile-link nav-link hover:text-secondary">Contact</a>
             </div>
         </div>
     </nav>
@@ -197,16 +199,6 @@
                     <h3 class="text-2xl font-bold mb-4 flex items-center gap-2 group-hover:text-secondary transition">Peak Moments Lifestyle <i class="fas fa-external-link-alt text-sm opacity-50"></i></h3>
                     <p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-4">Lifestyle-focused platform with emphasis on content flow, visual consistency, and mobile-first responsiveness.</p>
                 </a>
-
-                <!--a href="#" class="group block bg-white dark:bg-gray-900 p-10 rounded-3xl shadow-sm hover:shadow-xl border border-gray-100 dark:border-gray-800 transition duration-300">
-                    <div class="flex justify-between items-start mb-6">
-                        <i class="fas fa-laptop-code text-3xl text-secondary"></i>
-                        <span class="bg-secondary/10 text-secondary text-xs font-bold px-3 py-1 rounded-full uppercase">Web App</span>
-                    </div>
-                    <h3 class="text-2xl font-bold mb-4 flex items-center gap-2 group-hover:text-secondary transition">New Project <i class="fas fa-external-link-alt text-sm opacity-50"></i></h3>
-                    <p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-4">A new innovative web solution focused on performance and scalability. (Project description placeholder - Update with real details).</p>
-                </a-->
-
             </div>
         </div>
     </section>
@@ -243,69 +235,6 @@
             </div>
         </div>
     </section>
-
-    <!--section id="video" class="py-24 bg-gray-50 dark:bg-gray-950">
-        <div class="max-w-7xl mx-auto px-6">
-            <h2 class="text-4xl md:text-6xl font-heading font-bold mb-16 text-center">Motion & Visuals</h2>
-            
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 font-body">
-                <div class="group bg-white dark:bg-gray-900 rounded-2xl md:rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300">
-                    <div class="relative h-40 md:h-56 bg-gray-200">
-                        <img src="images/home page/1.jpg" alt="Short form video content" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                        <div class="absolute inset-0 flex items-center justify-center bg-black/30 group-hover:bg-black/10 transition">
-                            <i class="fas fa-play-circle text-4xl md:text-5xl text-white opacity-80 group-hover:opacity-100 group-hover:scale-110 transition"></i>
-                        </div>
-                    </div>
-                    <div class="p-4 md:p-6">
-                        <h3 class="text-lg md:text-xl font-bold mb-1">Short Form</h3>
-                        <p class="text-gray-600 dark:text-gray-400 text-xs md:text-sm">TikTok & Reels edits.</p>
-                    </div>
-                </div>
-                <div class="group bg-white dark:bg-gray-900 rounded-2xl md:rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300">
-                    <div class="relative h-40 md:h-56 bg-gray-200">
-                        <img src="images/home page/2.jpg" alt="Promotional ads video content" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                        <div class="absolute inset-0 flex items-center justify-center bg-black/30 group-hover:bg-black/10 transition">
-                            <i class="fas fa-play-circle text-4xl md:text-5xl text-white opacity-80 group-hover:opacity-100 group-hover:scale-110 transition"></i>
-                        </div>
-                    </div>
-                    <div class="p-4 md:p-6">
-                        <h3 class="text-lg md:text-xl font-bold mb-1">Promo Ads</h3>
-                        <p class="text-gray-600 dark:text-gray-400 text-xs md:text-sm">Business advertisements.</p>
-                    </div>
-                </div>
-                <div class="group bg-white dark:bg-gray-900 rounded-2xl md:rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300">
-                    <div class="relative h-40 md:h-56 bg-gray-200">
-                        <img src="images/home page/3.jpg" alt="Cinematic travel and lifestyle video content" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                        <div class="absolute inset-0 flex items-center justify-center bg-black/30 group-hover:bg-black/10 transition">
-                            <i class="fas fa-play-circle text-4xl md:text-5xl text-white opacity-80 group-hover:opacity-100 group-hover:scale-110 transition"></i>
-                        </div>
-                    </div>
-                    <div class="p-4 md:p-6">
-                        <h3 class="text-lg md:text-xl font-bold mb-1">Cinematic</h3>
-                        <p class="text-gray-600 dark:text-gray-400 text-xs md:text-sm">Travel & Lifestyle.</p>
-                    </div>
-                </div>
-                <div class="group bg-white dark:bg-gray-900 rounded-2xl md:rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300">
-                    <div class="relative h-40 md:h-56 bg-gray-200">
-                        <img src="images/home page/4.jpg" alt="Events and Weddings highlights" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                        <div class="absolute inset-0 flex items-center justify-center bg-black/30 group-hover:bg-black/10 transition">
-                            <i class="fas fa-play-circle text-4xl md:text-5xl text-white opacity-80 group-hover:opacity-100 group-hover:scale-110 transition"></i>
-                        </div>
-                    </div>
-                    <div class="p-4 md:p-6">
-                        <h3 class="text-lg md:text-xl font-bold mb-1">Highlights</h3>
-                        <p class="text-gray-600 dark:text-gray-400 text-xs md:text-sm">Events & Weddings.</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="mt-12 text-center font-body">
-                 <a href="#" class="inline-flex items-center gap-2 text-secondary font-bold hover:text-accent transition text-lg">
-                    Visit YouTube Channel <i class="fas fa-arrow-right"></i>
-                </a>
-            </div>
-        </div>
-    </section-->
 
     <section id="photography" class="py-24 bg-white dark:bg-gray-900 overflow-hidden">
         <div class="max-w-7xl mx-auto px-6 mb-16 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
@@ -440,18 +369,16 @@
             }
         });
 
-        // DARK MODE LOGIC (UPDATED)
+        // DARK MODE LOGIC
         const themeToggleBtn = document.getElementById('theme-toggle');
         const html = document.documentElement;
 
-        // Check saving preference on load
         if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
             html.classList.add('dark');
         } else {
             html.classList.remove('dark');
         }
 
-        // Toggle functionality
         themeToggleBtn.addEventListener('click', () => {
             html.classList.toggle('dark');
             if (html.classList.contains('dark')) {
@@ -459,6 +386,30 @@
             } else {
                 localStorage.theme = 'light';
             }
+        });
+
+        // SCROLL SPY - HIGHLIGHT ACTIVE LINK
+        // This makes the Nav Bar link blue when you scroll to that section
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (pageYOffset >= (sectionTop - 150)) { // 150px offset for header
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('text-secondary', 'font-bold');
+                if (link.getAttribute('href').includes(current)) {
+                    link.classList.add('text-secondary', 'font-bold');
+                }
+            });
         });
     </script>
 </body>
